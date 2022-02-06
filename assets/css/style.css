@@ -396,7 +396,7 @@ h6,
 }
 
 #hero .animated {
-    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    animation: up-down 1s ease-in-out infinite alternate-reverse both;
 }
 
 @media (max-width: 991px) {
@@ -649,6 +649,7 @@ section {
 
 .portfolio .portfolio-item {
     margin-bottom: 30px;
+    padding: 10px;
 }
 
 .portfolio #portfolio-flters {
