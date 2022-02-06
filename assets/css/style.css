@@ -590,12 +590,6 @@ section {
     }
 }
 
-@media (max-width: 767px) {
-    .about .about-img img {
-        max-width: 90%;
-    }
-}
-
 
 /*--------------------------------------------------------------
 # Services
@@ -1378,6 +1372,13 @@ section {
     background: #79a812;
     color: #fff;
     text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .social-links {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 #footer .copyright {
